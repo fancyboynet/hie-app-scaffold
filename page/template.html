@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title if title }}</title>
+    {% block head %}{% endblock %}
+    {% fis_framework 'static/lib/mod.js' %}
+    {% fis_placeholder 'css' %}
+</head>
+<body>
+{% block body %}{% endblock %}
+{% block script %}
+    {% fis_placeholder 'framework' %}
+    {% fis_placeholder 'resource_map' %}
+    {% fis_placeholder 'js' %}
+{% endblock %}
+</body>
+</html>
