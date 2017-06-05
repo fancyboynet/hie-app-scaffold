@@ -1,7 +1,0 @@
-{
-  "staticRoot" : "static",
-  "tplRoot" : "templates",
-  "namespace" : "www",
-  "staticUrlPrefix" : "/",
-  "outputRoot" : "../../"
-}
