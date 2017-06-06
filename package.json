@@ -8,8 +8,5 @@
   "scripts": {
     "dev": "hie release -wLc",
     "prod": "hie release prod -c"
-  },
-  "devDependencies": {
-    "fis3": "^3.4.32"
   }
 }
