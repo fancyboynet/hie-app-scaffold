@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="shortcut icon" href="data:;base64,iVBORw0KGgo=">
+    {% block head %}{% endblock %}
+    {% fis_framework 'static/lib/mod.js' %}
+    {% fis_placeholder 'css' %}
+</head>
+<body>
+{% block body %}{% endblock %}
+{% block script %}
+{% fis_placeholder 'framework' %}
+{% fis_placeholder 'resource_map' %}
+{% fis_placeholder 'js' %}
+{% endblock %}
+</body>
+</html>
