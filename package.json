@@ -1,12 +1,12 @@
 {
   "name": "hie-app-scaffold",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hie单个app脚手架",
   "author": "Fancy <fancyboynet@gmail.com>",
   "repository": "https://github.com/fancyboynet/hie-app-scaffold.git",
   "license": "BSD",
   "scripts": {
     "dev": "hie release -wLc",
-    "prod": "hie release prod -c"
+    "prod": "pkill hie & hie release prod -c"
   }
 }
